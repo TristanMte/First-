@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: #9010ec;
+        color: #f2ea08e5;
+      }
+    </style>
+    <!-- html -->
+    <title>Premier site autodidacte</title>
+    <!-- icone de l'onglet -->
+    <link rel="shortcut icon" href="th.jpg">
+  </head>
+  <body>
+    <section>
+      <header>
+        <div>
+          <h1><span style="text-decoration: underline;">Débuter en HTML</span></h1>
+          <p>
+            <em>Je commence tout juste</em>, <strong>be kind!</strong>
+          </p>
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vero magni ex sunt, delectus officiis voluptatibus nesciunt similique earum eligendi illo voluptatem est modi quidem at, amet ab? Odit, quis!</p>
+        </div>
+      </header>
+      <div>
+        <h2>Les couleurs</h2>
+        <img src="cercle.jpg" alt="cercle chromatique" />
+        <h4>Listes couleurs</h4>
+        <ul>
+          <li>Rouge</li>
+          <li>Orange</li>
+          <li>Jaune</li>
+          <li>Vert</li>
+          <li>Bleu</li>
+          <li>Violet</li>
+        </ul>
+        <h4>Ordre meilleures couleurs</h4>
+        <ol>
+          <li>Violet</li>
+          <li>Orange</li>
+          <li>Rouge</li>
+          <li>Bleu</li>
+          <li>Jaune</li>
+          <li>Vert</li>
+        </ol>
+      </div>
+      <div>
+        <h2>Démographie</h2>
+        <table border="5" width="50%">
+          <!-- Légende    -->
+          <caption>
+            Population d'europe
+          </caption>
+          <!-- En-tête -->
+          <thead>
+            <tr>
+              <th>Pays</th>
+              <th>Population</th>
+            </tr>
+          </thead>
+          <!-- Corps du tableau -->
+          <tbody>
+            <tr>
+              <td><span>&#128508;</span>France</td>
+              <td>68M</td>
+            </tr>
+            <tr>
+              <td><span>&#128644;</span>Allemagne</td>
+              <td>83M</td>
+            </tr>
+            <tr>
+              <td><span>&#9728;</span>Espagne</td>
+              <td>47M</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h4><span>&#10151;</span>Sources</h4>
+        <a
+          href="https://www.touteleurope.eu/societe/la-population-des-pays-de-l-union-europeenne/"
+          target="_blank"
+          >Toute l'europe</a
+        >
+      </div>
+      <div>
+        <h4>Le codage en vidéo</h4>
+        <video src="Codage.mp4" height="200" autoplay loop muted></video>
+      </div>
+    </section><br>
+    <!-- Formulaire -->
+    <section>
+        <h2>Formulaire de contact</h2>
+        <form action="/action.php" method="post">
+        <label for="name">Nom </label><input id="name"
+        type="text" placeholder="Entrez votre nom">
+        <br>
+        <label for="age">Age </label><input id="age"
+        type="number" placeholder="Entrez votre âge"
+        min="18" max="99" step="1" value="18">
+        <br>
+        <label for="gender">Genre</label>
+        <select id="gender">
+            <option value="homme">Masculin</option>
+            <option value="femme">Féminin</option>
+            <option value="Autre">Autre</option>
+        </select><br>
+        <div>
+            <input type="radio" name="type" id="worker">
+            <label for="worker">Travailleur</label>
+
+            <input type="radio" name="type" id="student">
+            <label for="Student">Etudiant</label>
+
+            <input type="radio" name="type" id="unemployed">
+            <label for="unemployed">Chômeur</label>
+        </div><br>
+        <div>
+            <textarea cols="30" rows="10" placeholder="Entrez vos remarques"></textarea>
+        </div>
+        <div>
+            <label><input type="checkbox" />Accepter les CGV</label>
+        </div><br>
+        <input type="submit" value="Valider">
+    </form>
+    </section>
+<foorter>
+    <a href="mailto:azertyuiop@gmail.com">Ecrivez moi</a><br>
+    <a href="Notice.txt"
+    download="Notice">Télécharger la notice</a>
+</foorter>
+</body>
+</html>
